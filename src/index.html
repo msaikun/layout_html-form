@@ -3,7 +3,8 @@
 
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
+    <meta
+      name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
@@ -26,6 +27,7 @@
             type="text"
             name="surname"
             id="surname"
+            autocomplete="off"
           ></input>
         </div>
 
@@ -35,7 +37,8 @@
             type="text"
             name="name"
             id="name"
-            ></input>
+            autocomplete="off"
+          ></input>
         </div>
 
         <div class="form__field">
@@ -97,22 +100,22 @@
         <div class="form__field">
           Do you love cats?
 
-          <label for="answer-yes">
+          <label for="answerYes">
             <input
               type="radio"
-              name="question"
+              name="questionAboutCats"
               value="yes"
-              id="answer-yes"
+              id="answerYes"
             >
             Yes
           </label>
 
-          <label for="answer-no">
+          <label for="answerNo">
             <input
               type="radio"
-              name="question"
+              name="questionAboutCats"
               value="no"
-              id="answer-no"
+              id="answerNo"
             >
             No
           </label>
@@ -140,7 +143,7 @@
           <label for="cars">What are your favourite brand of cars?</label>
 
           <select
-            name="favourite-cars"
+            name="favouriteCars"
             id="cars"
             multiple
             required
@@ -182,7 +185,7 @@
         <div class="form__field">
           <label for="recommendations">Would you recommend us?</label>
 
-          <select name="answers" id="recommendations">
+          <select name="answersAboutRecommendations" id="recommendations">
             <option value="yes">yes</option>
             <option value="no">no</option>
           </select>
